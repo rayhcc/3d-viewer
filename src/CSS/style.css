@@ -1,0 +1,61 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(42,43,46);
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*/////////////////////////////////////
+Typography
+/////////////////////////////////////*/
+
+header, main {
+    color: rgb(243,243,243);
+}
+
+/*/////////////////////////////////////
+Layout
+/////////////////////////////////////*/
+
+header {
+    height: 3em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+main {
+    height: calc(100% - 3em);
+    border:  1px solid rgb(68,68,68);
+}
+
+.app-container {
+    width: 95vw;
+    height: 95vh;
+    margin: 0px auto;
+}
+
+.app-logo {
+    height: 3em;
+    display: block;
+}
+
+.working-area {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+    position: relative;
+}

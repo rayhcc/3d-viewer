@@ -1,0 +1,44 @@
+.file-input-container {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.file-message {
+    font-size: 2.5rem;
+}
+
+.file-input-local-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#file-input {
+    width: 15em; 
+    font-size: 1rem;
+}
+
+
+.button-example-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 1em;
+
+}
+
+.file-example {
+    font-size: 1.5rem;
+    color: rgb(48,147,189);
+    background-color: rgb(42,43,46);
+    border-style: none;
+}

@@ -1,0 +1,27 @@
+.material-container {
+    position: relative;
+}
+
+.colorPicker {
+    width: 80%;
+    position: absolute;
+    top: 5%;
+    right: 0px;
+    z-index: 1;
+}
+
+/*
+這邊select 到的是 .react-colorful 這個 class (只不過是只有select到在 .colorPicker 裡面而已)
+所以它的 parent 是 .colorPicker，並不是 .colorPicker 外面的 .material-container
+因此要用 % 來設定size的話，必須要要它的 parent (colorPicker) 有被設定 size 才行
+*/
+.colorPicker .react-colorful{  
+    width: 100%;
+}
+
+.material-apply {
+    font-size: 1.2rem;
+    width: 85%;
+    height: 1.5em;
+    margin: 2em auto 0 auto;
+}

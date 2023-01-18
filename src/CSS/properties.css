@@ -1,0 +1,77 @@
+.property-container {
+    
+    width: 20em;
+    height: 100%;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.property-button-container {
+    width: 15%;
+    height: 100%;
+    border:  1px solid rgb(100,100,100);
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.property-data-container {
+    width: 85%;
+    height: 100%;
+    border:  1px solid rgb(100,100,100);
+}
+
+
+.property-button {
+    width: 2.5em;
+    height: 2.5em;
+
+    border: 0;
+    border-radius: 5px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.property-button:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.property-icon {
+    width: 80%;
+    height: auto;
+}
+
+.property-toggle {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .property-toggle {
+        display: inline;
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+    }
+
+    .property-container {
+        display: none;
+    }
+
+    .property-container.active {
+        display: flex;
+
+        background-color:  rgba(42,43,46, 80%);
+
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+}
