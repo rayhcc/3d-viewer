@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/3d-viewer/static/css/main.4a335077.css",
+    "main.js": "/3d-viewer/static/js/main.b40098dd.js",
+    "static/media/AppLogo.png": "/3d-viewer/static/media/AppLogo.68e8ae0ef587de3f3526.png",
+    "static/media/wrench-tool-icon.svg": "/3d-viewer/static/media/wrench-tool-icon.b2affa1799ae32d093382897f34e8da5.svg",
+    "index.html": "/3d-viewer/index.html",
+    "main.4a335077.css.map": "/3d-viewer/static/css/main.4a335077.css.map",
+    "main.b40098dd.js.map": "/3d-viewer/static/js/main.b40098dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a335077.css",
+    "static/js/main.b40098dd.js"
+  ]
+}
